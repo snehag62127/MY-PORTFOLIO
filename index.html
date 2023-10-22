@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/02d991f30a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="left">Sneha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSec">
+            <div class="leftSec">
+                Hi, My name is <span class="darkblue">Sneha</span>
+                <span><div>and I am a passionate</div></span>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href ="SNEHA GUPTA CV.pdf" attributes-list download >Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/snehag62127?tab=repositories" target="_blank">Visit GitHub</a></button>
+                </div>
+            </div>
+            <div class="rightSec">
+                <img src="picture of me.jpeg" alt="pic">
+            </div>
+        </section>
+
+        <hr id="aboutme">
+
+        <section class="fourthSec">
+            <div id="about">
+                <div class="container">
+                    <div class="rows">
+                        <div class="about-col-1">
+                            <img src="picture-2.jpeg">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+        
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li>ReactJS</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Java Script</li>
+                                    <li>BootStrap</li>
+                                    <li>C (Basic)</li>
+                                    <li>C++ (Basic)</li>
+                                    <li>SQL (Basic)</li>
+                                    <li>Full Stack Using MERN Stack (Fresher)</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="certificates">
+                                <ul>
+                                    <li><span><a href="Certificates/ReactJS combined.pdf" target="_blank">Google, Microsoft, Devtown Certificate</a></span><br>7 days Course on Java Script and ReactJS.</li>
+                                    <li><span><a href="Certificates/Python AI Merged.pdf" target="_blank">Google, Microsoft, Devtown, Amazon Certificate</a></span><br>7 days Course on Python and AI.</li>
+                                    <li><span><a href="Certificates/21051849.png" target="_blank">KIIT CAAS Certificate</a></span><br>Course on Full Stack Development using MERN Stack.</li>
+                                    <!-- <li><span><a href="Certificates/IPR_EVENT.pdf" target="_blank">Participation Certificate</a></span><br>IP Awareness/Training Program under NATIONAL INTELLECTUAL PROPERTY AWARNESS MISSION.</li> -->
+                                    <li><span><a href="Certificates/TATA Crucible.jpg" target="_blank">Participation Certificate</a></span><br>Tata Crucible Campus Quiz 2023 organised by Tata Group.</li>
+                                    <li><span><a href="Certificates/Problem Solving Basic Certificate.pdf" target="_blank">HackerRank Certificate</a></span><br>HackerRank Certificate of Problem Solving(Basic).</li>
+                                    <li><span><a href="Certificates/Problem Solving Intermediate Certificate.pdf" target="_blank">HackerRank Certificate</a></span><br>HackerRank Certificate of Problem Solving(Intermediate).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr id="education">
+
+        <section class="secondSec">
+            <h1>My Education</h1>
+            <br>
+            <div class="box">
+                <div class="vertical">
+                    <img class="school" src="school.jpg" alt="school">
+                    <div class="vertical-title">
+                        BTech 
+                    </div>
+                    <div class="vertical-title">
+                        (2021-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Kalinga Institute of Industrial Technology, Patia, Bhubaneswar.
+                    </div>
+                    <div class="vertical-desc-marks">
+                        8.9 CGPA
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="school" src="school.jpg" alt="school">
+                    <div class="vertical-title">
+                        12th 
+                    </div>
+                    <div class="vertical-title">
+                        (2021)
+                    </div>
+                    <div class="vertical-desc">
+                        SBD International School, Bhadrak.
+                    </div>
+                    <div class="vertical-desc-marks">
+                        91.6%
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="school" src="school.jpg" alt="school">
+                    <div class="vertical-title">
+                        10th 
+                    </div>
+                    <div class="vertical-title">
+                        (2019)
+                    </div>
+                    <div class="vertical-desc">
+                        St. Xavier's High School, Charampa, Bhadrak.
+                    </div>
+                    <div class="vertical-desc-marks">
+                        91%
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr id="projects">
+
+        <section class="thirdSec">
+            <div>
+                <div class="container">
+                    <span>What I have done so far</span>
+                    <h1>My Projects</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="work-1.png">
+                            <div class="layer">
+                                <h3>BMI Calculator</h3>
+                                <p>A website to find the Body Mass Index</p>
+                                <a href="https://bmi-calculator-sandy-two.vercel.app/?vercelToolbarCode=NQarl7B_JY3rvuJ" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="work-2.png">
+                            <div class="layer">
+                                <h3>A Music Site</h3>
+                                <p>A site that plays Music</p>
+                                <a href="https://spotify-nu-seven.vercel.app/?vercelToolbarCode=8HGOkzCsqF-DIoQ" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="work-6.png" class="zomato-app-bg">
+                            <div class="layer">
+                                <h3>Zomato App Clone</h3>
+                                <p>A Food Delivery App</p>
+                                <a href="http://localhost:3000/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="Projects.html" target="_blank" class="seemore-btn">See more</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> snehagupta62127@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> +91-9438635935</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/_snehagupta_8/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sneha-gupta-69980a25b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" placeholder="Your Message" rows=6></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <span id="msg"></span>
+            <div class="copyright">
+                <p>Copyright &#169 snehasportfolio.com | All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'UI/UX Designer','Web Designer'],
+          typeSpeed: 50,
+        });
+    </script>
+
+    <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxa-a-278RGkkb-6Kg-bx2bUvJZvXSCQce_hRP7Eqo-63ymsPGSNmUCiM4PRcCzVnBf/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+
+</body>
+</html>
